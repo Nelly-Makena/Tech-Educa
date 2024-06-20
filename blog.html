@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E - learning platform</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b6bd9fb542.js" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+
+        <nav>
+            <img src="images/logo.svg" alt = "school logo">
+            <div class = "navigation">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    <li><a href="about.html">About</a>
+                    <li><a  class= "active" href="#">Blog</a>
+                    <li><a href="course.html">Courses</a>
+                    <li><a href="contacts.html">Contact</a>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home -->
+
+        <section id="about-home">
+            <h2>Blog</h2>
+        </section>
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="images/b1.jpg" alt="">
+                    <h3>Learn Web Development in the Easiest Way</h3>
+                    <p>Welcome to the exciting world of web development! Whether you're starting with HTML, CSS, or diving into JavaScript and frameworks like Bootstrap or React, we're here to guide you. Our courses and tutorials offer a clear path to mastering web design and creating dynamic websites. Join us on this journey to unlock your creativity and build impactful web experiences!</p>
+                    <a href="post.html">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="images/b2.jpg" alt="">
+                    <h3>Master App Development </h3>
+                    <p>Embark on your app development journey today! Learn to create innovative mobile applications with our comprehensive courses. From designing interfaces to coding functionalities, we guide you every step of the way. Join us and turn your app ideas into reality.</p>
+                    <a href="post1.html">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="images/b3.jpg" alt="">
+                    <h3>Learn Python Programming and Be Job Ready</h3>
+                    <p>Python, renowned for its simplicity and readability, powers diverse applications from web development to AI. Its rich ecosystem of libraries supports rapid development and versatility. Ideal for beginners and experts alike, Python continues to dominate the programming landscape.</p>
+                    <a href="post2.html">Read more</a>
+                </div>
+                <div class="post">
+                    <img src="images/b4.png" alt="">
+                    <h3>Explore The Beauty Of Frontend Development</h3>
+                    <p>Front-end web development focuses on creating interactive and engaging user interfaces. It involves HTML, CSS, and JavaScript to design and implement visually appealing websites. Front-end developers ensure seamless user experiences across different devices and browsers. Mastery of front-end technologies is crucial for building modern, responsive web applications.</p>
+                    <a href="post3.html">Read more</a>
+                </div>
+            </div>
+        
+                <div class="cate">
+                    <h2>Categories</h2>
+                    <hr>
+                    <a href="#"> Web development</a>
+                    <hr>
+                    <a href="#"> Web Design</a>
+                    <hr>
+                    <a href="#"> App Development</a>
+                    <hr>
+                    <a href="#"> Frontend Web</a>
+                    <hr>
+                    <a href="#"> Python programming</a>
+                    <hr>
+                    <a href="#"> JavaScript Hacks</a>
+
+
+                </div>
+            </section>
+            
+       
+
+       
+
+        <!-- Footer -->
+         <section id="footer">
+          <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Subscription</li>
+            <li>Marketing Services</li>
+          </div>
+          <div class="footer-col">
+           <h3>Quick Links </h3>
+           <li>Jobs</li>
+           <li>Assets</li>
+           <li>Terms Of services</li>
+           <li>Investors</li>
+
+          </div>
+          <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Refund Services</li>
+
+          </div>
+          <div class="footer-col">
+          <h3>Resources </h3>
+          <li>Guides</li>
+          <li>Research</li>
+          <li>Experts</li>
+          <li>Community network</li>
+        </div>
+
+          <div class="footer-col">
+          <h3>NewsLetter</h3>
+          <p>You can trust us, Access our affordable Services </p>
+          <div class="subscribe">
+            <input type="text" placeholder=" Your Email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+          </div>
+        </div>
+            <div class="copyright-container">
+                <p>copyright at 2021. All rights reserved...TechEduca</p>
+                <div class="links-2">
+                    <div class="social-links"><i class="fab fa-facebook-f"></i></div>
+                    <div class="social-links"><i class="fab fa-instagram"></i></div>
+                    <div class="social-links"><i class="fab fa-linkedin-in"></i></div>
+                </div>
+            </div>
+        </footer>
+        
+      
+        
+        </section>
+        
+
+        <script>
+
+$(document).ready(function() {
+    $('.menu-btn').click(function() {
+        $('nav.navigation ul').addClass('active');
+    });
+
+    $('.menu-close').click(function() {
+        $('nav.navigation ul').removeClass('active');
+    });
+});
+
+        </script>
+
+
+    </body>
+
+</html>
